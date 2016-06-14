@@ -1,13 +1,15 @@
 # Sbox-depth-evaluation
 Depth evaluation of 4-bit Sbox
 
-There are three files in this folder:
+There are four files in this folder:
 sbox_depth_test.py
 all_expr_hw8_within_depth4.5
 readme.txt
+depth3.txt
 
 The sbox_depth_test.py program outputs the minimum depth of a given S-box. 
 all_expr_hw8_within_depth4.5.txt contains all the 4-bit balanced boolean functions (from depth 0) up to depth 4.5 that is loaded in python data structure called dictionary.
+depth3.txt contains all 4-bit optimal Sboxes whose depth are 3. Here "optimal" we mean the highest probability of differential characteristics and linear bias are all 2^{-2}.
 
 -------------------------------------------------------------------
 How to test depth of a given S-box:
